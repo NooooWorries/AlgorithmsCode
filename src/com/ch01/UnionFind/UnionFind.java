@@ -1,4 +1,4 @@
-package com.ch01.unionfind;
+package com.ch01.UnionFind;
 
 public class UnionFind {
     private int[] id;
@@ -18,7 +18,6 @@ public class UnionFind {
             if (id[i] == pid)
                 id[i] = qid;
         }
-
     }
 
     public boolean connected (int p, int q) {

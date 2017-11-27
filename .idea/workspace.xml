@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcedecb7-4d73-47c6-98c7-c90f9eb4c92d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AlgorithmsCode.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ch01/quickunion/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ch01/quickunion/QuickUnion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ch01/unionfind/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ch01/unionfind/UnionFind.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/WeightedQuickUnion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ch01/quickunion/Client.java" afterPath="$PROJECT_DIR$/src/com/ch01/QuickUnion/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ch01/quickunion/QuickUnion.java" afterPath="$PROJECT_DIR$/src/com/ch01/QuickUnion/QuickUnion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ch01/unionfind/Client.java" afterPath="$PROJECT_DIR$/src/com/ch01/UnionFind/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/ch01/unionfind/UnionFind.java" afterPath="$PROJECT_DIR$/src/com/ch01/UnionFind/UnionFind.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UnionFind.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ch01/unionfind/UnionFind.java">
+      <file leaf-file-name="WeightedQuickUnion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/WeightedQuickUnion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickUnion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ch01/QuickUnion/QuickUnion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,10 +63,13 @@
       <list>
         <option value="$PROJECT_DIR$/Code/src/com/ch01/unionfind/UnionFind.java" />
         <option value="$PROJECT_DIR$/Code/src/com/ch01/unionfind/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/ch01/unionfind/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/com/ch01/quickunion/QuickUnion.java" />
         <option value="$PROJECT_DIR$/src/com/ch01/unionfind/Client.java" />
         <option value="$PROJECT_DIR$/src/com/ch01/quickunion/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/ch01/unionfind/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/WeightedUnionFind.java" />
+        <option value="$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/WeightedQuickUnion.java" />
       </list>
     </option>
   </component>
@@ -68,8 +80,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="23" />
+    <option name="x" value="47" />
+    <option name="y" value="189" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
@@ -110,13 +122,19 @@
               <item name="AlgorithmsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch01" type="462c0819:PsiDirectoryNode" />
-              <item name="quickunion" type="462c0819:PsiDirectoryNode" />
+              <item name="QuickUnion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmsCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch01" type="462c0819:PsiDirectoryNode" />
-              <item name="unionfind" type="462c0819:PsiDirectoryNode" />
+              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmsCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01" type="462c0819:PsiDirectoryNode" />
+              <item name="WeightedQuickUnion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,7 +165,7 @@
   <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.ch01.unionfind.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.ch01.UnionFind.Client" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -156,14 +174,14 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="AlgorithmsCode" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.ch01.quickunion.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.ch01.WeightedQuickUnion.Client" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -224,15 +242,15 @@
       <updated>1511786914597</updated>
       <workItem from="1511786917806" duration="238000" />
       <workItem from="1511787164169" duration="901000" />
-      <workItem from="1511788079667" duration="2397000" />
+      <workItem from="1511788079667" duration="4277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3536000" />
+    <option name="totallyTimeSpent" value="5416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="47" y="189" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -285,12 +303,12 @@
         <state relative-caret-position="131">
           <caret line="2075" column="0" lean-forward="false" selection-start-line="2075" selection-start-column="0" selection-end-line="2075" selection-end-column="0" />
           <folding>
-            <element signature="e#78050#78051#0" expanded="true" />
+            <element signature="e#78050#78051#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ch01/quickunion/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ch01/QuickUnion/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
@@ -298,32 +316,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ch01/quickunion/QuickUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ch01/unionfind/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ch01/UnionFind/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ch01/unionfind/UnionFind.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ch01/UnionFind/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ch01/QuickUnion/QuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ch01/WeightedQuickUnion/WeightedQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

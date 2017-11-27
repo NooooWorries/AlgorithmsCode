@@ -1,4 +1,4 @@
-package com.ch01.quickunion;
+package com.ch01.QuickUnion;
 
 public class QuickUnion {
     private int[] id;
