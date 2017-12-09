@@ -1,3 +1,5 @@
+package com.assignments.assgt01;
+
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
