@@ -73,7 +73,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     }
 
-    public Item deque(){
+    public Item dequeue(){
         if (isEmpty())
             throw new NoSuchElementException();
 
